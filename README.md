@@ -1,6 +1,6 @@
-# Train Kimi with Huggingface
+# How (not) to train Kimi-K2-Thinking with HuggingFace
 
-See [workshoplabs.ai/blog/open-weights-open-training](our blog post).
+See [our blog post](https://workshoplabs.ai/blog/open-weights-open-training) for details.
 
 This is *not* intended to actually be used for post-training of Kimi K2 Thinking - it is slow and inefficient. It is a demonstration of the patches needed to make it even work in principle on top of HuggingFace.
 
