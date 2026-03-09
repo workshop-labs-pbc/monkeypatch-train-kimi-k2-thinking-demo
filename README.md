@@ -5,13 +5,13 @@
 ### 1. Generate the Yoda dataset
 Requires an Anthropic API key. Generates Yoda-style Q&A pairs from TriviaQA questions using Claude.
 
-```export ANTHROPIC_API_KEY="sk-ant-..."```
-```python make_yoda_dataset.py --num-questions 2000 --num-workers 48 --output-file yoda_dataset.jsonl```
+`export ANTHROPIC_API_KEY="sk-ant-..."`
+`python make_yoda_dataset.py --num-questions 2000 --num-workers 48 --output-file yoda_dataset.jsonl`
 
 ###2. Fine-tune Kimi-K2 with LoRA
 Requires 8× H200s (or a configuration with more VRAM)
 
-```python train.py --save-dir ./blog_run```
+`python train.py --save-dir ./blog_run`
 
 This will:
 - Load the tokenizer and dataset from yoda_dataset.jsonl
