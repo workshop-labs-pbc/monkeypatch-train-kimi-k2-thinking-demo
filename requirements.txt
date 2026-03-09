@@ -1,0 +1,7 @@
+anthropic==0.71.0
+compressed-tensors==0.13.0
+datasets==4.2.0
+matplotlib==3.10.8
+peft==0.18.1
+torch==2.9.1+cu128
+transformers==4.56.2
